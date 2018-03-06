@@ -50,7 +50,7 @@ private SessionFactory sessionFactory;
 
 		Session session=sessionFactory.getCurrentSession();
 
-		Query query=session.createQuery("from job");
+		Query query=session.createQuery("from Job");
 
 		return query.list();
 
