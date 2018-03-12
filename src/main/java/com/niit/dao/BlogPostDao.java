@@ -4,8 +4,7 @@ package com.niit.dao;
 
 import java.util.List;
 
-
-
+import com.niit.model.BlogComment;
 import com.niit.model.BlogPost;
 
 
@@ -22,6 +21,8 @@ public interface BlogPostDao {
 
 	void reject(BlogPost blog,String rejectionReason);
 
+	void addBlogComment(BlogComment blogComment);
 
+	List<BlogComment> getAllBlogComments(int blogPostId);
 
 }
