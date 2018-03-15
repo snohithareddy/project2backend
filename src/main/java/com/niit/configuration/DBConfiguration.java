@@ -47,8 +47,7 @@ public class DBConfiguration {
 	    dataSource.setUrl("jdbc:oracle:thin:@localhost:1521:XE");
 	    dataSource.setUsername("snohitha");
 	    dataSource.setPassword("snohitha17");
-	    return dataSource;
-	    
+	    return dataSource;   
 	}
 	@Bean
 	public HibernateTransactionManager hibTransManagement(){
