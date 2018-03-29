@@ -17,6 +17,12 @@ void addFriend(Friend friend);
 
 List<Friend> pendingRequests(String email);
 
+void acceptRequest(Friend request);
 
+
+
+void deleteRequest(Friend request);
+
+public List<Friend> listOfFriends(String email);
 
 }
